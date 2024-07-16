@@ -1,0 +1,37 @@
+.my-header {
+  background-color:#5bd8ff;
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+}
+.my-header-name {
+  color:white;
+  font-family:helvetica;
+  font-size:300%;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+body {
+  background-color:#ffffff 
+}
+.home-page {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.job-title {
+  color:black;
+  font-family:helvetica;
+}
+.about-button, .portfolio-button {
+  background-color:white;
+  color:black;
+  font-family:baskerville;
+  transition:background-color 1s;
+  transition:color 1s;
+}
+.about-button:hover, .portfolio-button:hover {
+  background-color:black;
+  color:white;
+}
